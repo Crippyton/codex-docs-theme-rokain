@@ -1,43 +1,77 @@
-# Estrutura
+# Estrutura do CodeX Docs
 
-## Backend
+## Diretório principal
 
-dist/backend
+```
+/usr/src/app
+```
+
+### public/
+
+Arquivos públicos da aplicação.
+
+```
+favicon.png
+dist/
+```
+
+### public/dist/
+
+Arquivos compilados do frontend.
+
+```
+main.css
+main.bundle.js
+editor.bundle.js
+table-of-content.bundle.js
+```
+
+### dist/frontend/
+
+Recursos SVG.
+
+```
+aside-logo.svg
+menu.svg
+search.svg
+...
+```
+
+### dist/backend/
+
+Código do backend.
+
+```
+controllers/
+routes/
+models/
+views/
+utils/
+```
 
 ### Views
 
+```
 layout.twig
-
-Responsável pelo layout principal.
-
 header.twig
-
-Responsável pelo cabeçalho.
-
 sidebar.twig
+navigator.twig
+```
 
-Responsável pela sidebar.
+### Uploads
 
-...
+```
+/usr/src/app/uploads
+```
 
-## Frontend
+### Banco
 
-public/dist
+```
+MongoDB
+```
 
-main.css
+### Configuração
 
-CSS principal
-
-main.bundle.js
-
-JavaScript principal
-
-...
-
-## SVG
-
-aside-logo.svg
-
-Logo lateral
-
-...
+```
+docs-config.yaml
+```
