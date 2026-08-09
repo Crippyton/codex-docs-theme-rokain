@@ -1,0 +1,17 @@
+/**
+ * CodeX Docs Theme Rokain
+ * https://github.com/Crippyton/codex-docs-theme-rokain
+ *
+ * Custom styles for Rokain Technology Wiki.
+ */
+
+/* ============================================
+   Rokain Design Tokens
+   ============================================ */
+
+:root {
+  --rokain-blue: #3B82F6;
+  --rokain-green: #10B981;
+  --rokain-dark: #0F172A;
+  --rokain-light: #F8FAFC;
+}
