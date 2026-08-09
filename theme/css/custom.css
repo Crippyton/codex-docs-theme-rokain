@@ -15,3 +15,43 @@
   --rokain-dark: #0F172A;
   --rokain-light: #F8FAFC;
 }
+
+/* ============================================
+   Sidebar Branding
+   ============================================ */
+
+.docs-sidebar__logo {
+    background: var(--rokain-light);
+    border-top: 1px solid #e8e8eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.docs-sidebar__logo-wrapper {
+    color: var(--rokain-dark);
+    gap: 12px;
+    padding: 8px;
+    transition: opacity 0.2s ease;
+}
+
+.docs-sidebar__logo-wrapper:hover {
+    opacity: 0.85;
+}
+
+.docs-sidebar__logo-image {
+    align-items: center;
+    display: inline-flex;
+}
+
+.docs-sidebar__logo-image svg {
+    display: block;
+    height: 36px;
+    width: auto;
+}
+
+.docs-sidebar__logo-caption {
+    color: #64748B;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+}
